@@ -6,8 +6,8 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 let parola = prompt(
 "inserire una parola per verificare se è palindroma"
-).toLowerCase;
-let correzione = palindrome(parola);
+).toLowerCase();
+let correzione = palindroma(parola);
 console.log(correzione);
 /**
  * 

@@ -19,7 +19,7 @@ if (userNumber < 1 || userNumber > 5) {
     
 } else {
     // numero random per il computer
-    let computerNumber = getRandomNumber();
+    let computerNumber = randComputer();
 
 // sommare i due numeri
 let sum = userNumber + computerNumber;
